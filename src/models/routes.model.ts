@@ -1,8 +1,9 @@
 export enum DashboardRoutes {
     HOME ='/',
     MESSAGES = 'messages',
-    NEWS = 'news',
-    PRODUCTS = 'poducts',
+    ARTICLES = 'articles',
+    PRODUCTS = 'products',
     USERS = 'users',
     SETTINGS= 'settings',
+    CONTACTS= 'contacts'
 }

@@ -1,4 +1,4 @@
-import { Boxes, Home, Inbox, Newspaper, Settings, Users } from "lucide-react"
+import { Boxes, ContactRound, Home, Inbox, Newspaper, Settings, Users } from "lucide-react"
 
 import {
   Sidebar,
@@ -27,8 +27,13 @@ const items: DashboardNavigationItem[] = [
     icon: Inbox,
   },
   {
+    title: "Contactos",
+    url: "/"+DashboardRoutes.CONTACTS,
+    icon: ContactRound,
+  },
+  {
     title: "Noticias/Articulos",
-    url: "/"+DashboardRoutes.NEWS,
+    url: "/"+DashboardRoutes.ARTICLES,
     icon: Newspaper,
   },
   {
